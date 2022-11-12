@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100, 200, 300, 400, 500, 600, 700, 800, 900');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* display: flex; */
+    /* justify-content: left; */
+    margin: 1rem;
+    min-height: 100vh;
+    background-color: #fafafa;
+    background-image: linear-gradient(rgb(222, 222, 235), rgb(217, 227, 230));
+}
+
+.menu {
+    position: relative;
+    margin-top: 1rem;
+    width: 300px;
+    height: 50px;
+}
+
+.menu .text {
+    padding: 1rem;
+    height: 1rem;
+    width: 4.4rem;
+}
+
+.menu .option {
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.menu .option div {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.menu .option div:nth-child(even) {
+    background-color: rgb(243, 236, 236);
+}
+
+.menu .option div:hover {
+    background: lightgrey;
+    color: white;
+}
+
+.Table {
+    position: absolute;
+    border-radius: .5rem;
+    margin-left: 20rem;
+    margin-top: 1rem;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+.Table .tablehead th {
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 1rem;
+    background-color: rgb(193, 184, 184);
+    letter-spacing: .1rem;
+    font-size: .9rem;
+    font-weight: 900;
+}
+
+.tablebody td {
+    padding: 1.5rem;
+}
+
+.tablebody tr:nth-child(even) {
+    background-color: rgb(243, 236, 236);
+}
+.tablebody tr:nth-child(odd) {
+    background-color: rgb(235, 227, 227);
+}
+
+.inputtext {
+    width: 10rem;
+    height: 2rem;
+    font-family: 'Poppins' sans-serif;
+    text-align: center;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.textbox{
+    width: 10rem;
+    height: 2rem;
+    font-family: 'Poppins' sans-serif;
+    text-align: center;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    resize: none;
+    text-align: center;
+}
+
+.calc {
+    position: absolute;
+    margin-left: 60rem;
+    margin-top: 5rem;
+    padding: 1rem;
+    width: 10rem;
+    font-weight: 900;
+    letter-spacing: .1rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    background-color: rgb(243, 236, 236);
+    cursor: pointer;
+}
+
+.re {
+    position: absolute;
+    margin-left: 60rem;
+    margin-top: 10rem;
+    padding: 1rem;
+    width: 10rem;
+    font-weight: 900;
+    letter-spacing: .1rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    background-color: rgb(243, 236, 236);
+    cursor: pointer;
+}
+
+.calc:hover{
+    text-transform: uppercase;
+    /* color: rgba(255, 255, 255, 1); */
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+.re:hover {
+    text-transform: uppercase;
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
