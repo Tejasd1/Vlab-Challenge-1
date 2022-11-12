@@ -44,7 +44,7 @@ class CubeNumber{
             let cube = `#textboxid${i}`
             let temp: HTMLInputElement = document.querySelector(value);
             if(temp.value == ""){
-                prompt("It shuold Contain Floating point number");
+                alert("It shuold Contain Floating point number");
                 break;
             }
             let temp2: HTMLInputElement = document.querySelector(cube);
